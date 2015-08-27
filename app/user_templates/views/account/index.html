@@ -8,7 +8,8 @@
         <legend>Basic Info</legend>
 
         <form e-submit="save">
-          <:fields:text value="{{ _name }}" />
+          <:fields:text value="{{ _first_name }}" />
+          <:fields:text value="{{ _last_name }}" />
           <:fields:textarea value="{{ _bio }}" />
           <button class="btn btn-info btn-block">Save</button>
         </form>
